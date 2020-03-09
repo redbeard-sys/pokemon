@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding:0;
+  background: blue;
+}
+
+.header{
+  background-color: blue;
+  height: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 28px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+#footer-text{
+  text-shadow: 0 0 3px blue;
+}
+
+.content{
+  background-color: yellow;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  text-shadow: 0 0 3px blue;
+}
+
+.inner_text_shadow
+{
+    text-shadow: 1px 1px white, -1px -1px #444;
+}
+
+.default
+{
+    font-size:30px;
+    color: yellow;
+    font-weight:bold;
+}
+
+#label1{
+  text-shadow: 0 0 3px blue;
+}
+
+button {
+  border-color: red;
+  color: red;
+}
+
+button:hover{
+border-color: blue;
+color: blue;
+}
+
+#img1{
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 6px;
+  right: 25px;
+}
+
+#img2{
+  position: absolute;
+  width: 16%;
+  height: auto;
+  top: 8px;
+  left: 16px;
+}
+
+#pokeimage{
+  border: 2px solid red;
+}
+
+#directions{
+  text-shadow: 0 0 3px blue;
+}
+
+#weight{
+visibility: hidden;
+text-shadow: 0 0 3px blue;
+font-weight: bold;
+}
+
+#name{
+visibility: hidden;
+text-shadow: 0 0 3px blue;
+font-weight: bold;
+}
+
+#pokename {
+  font-style: italic;
+  text-shadow: 0 0 3px blue;
+  font-weight: bold;
+}
+
+span {
+  text-shadow: 0 0 3px blue;
+  font-weight: bold;
+}
