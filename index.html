@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="inner_text_shadow default">Pokédex</h1>
+    </div>
+    <img id = "img1" src="https://pngimg.com/uploads/pokeball/pokeball_PNG21.png" alt="pokeball">
+    <img id ="img2" src="https://qtoptens.com/wp-content/uploads/2017/09/masterball.png" alt="masterball">
+
+    <div class="content">
+<h1>Pokemon Search</h1>
+  <form id = "pokeform">
+  <label id ="label1">Search Pokemon</label>
+  <input type="text" id="pokemonSearch" placeholder="Number">
+  <button type="submit" name="button">submit</button>
+  <button type="button" id = "changebtn" name="button2">change page color</button>
+  <button type="button" id = "default" name="button">set page default</button>
+
+  <p id = "directions">Enter a number and a picture of the pokemon that corresponds to that <span>id</span> will appear</p>
+</form>
+<label id = "name">name:</label>
+<h1 id = "pokename"></h1>
+<label id = "weight">weight:</label>
+<h1 id = "pokeweight"></h1>
+<img id ="pokeimage"/>
+</div>
+
+  <div id = "footer-text" class="footer">This site made by <strong>Sebastian Vera</strong>.</div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
